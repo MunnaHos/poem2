@@ -55,6 +55,17 @@ class MainActivity : AppCompatActivity(),View.OnClickListener,commonication {
         binding.button15.setOnClickListener(this)
         binding.button16.setOnClickListener(this)
         binding.button17.setOnClickListener(this)
+        binding.button18.setOnClickListener(this)
+        binding.button19.setOnClickListener(this)
+        binding.button20.setOnClickListener(this)
+        binding.button21.setOnClickListener(this)
+        binding.button22.setOnClickListener(this)
+        binding.button23.setOnClickListener(this)
+        binding.button24.setOnClickListener(this)
+        binding.button25.setOnClickListener(this)
+        binding.button26.setOnClickListener(this)
+        binding.button27.setOnClickListener(this)
+        binding.button28.setOnClickListener(this)
 
         setContentView(view)
     }
@@ -135,6 +146,50 @@ class MainActivity : AppCompatActivity(),View.OnClickListener,commonication {
             R.id.button17 ->{
                 val bonDona = getString(R.string.BonDona)
                 dataPass(bonDona,"Button17")
+            }
+             R.id.button18 ->{
+                val bonDona = getString(R.string.BonDona)
+                dataPass(bonDona,"Button18")
+            }
+            R.id.button19 ->{
+                val bonDona = getString(R.string.BonDona)
+                dataPass(bonDona,"Button19")
+            }
+            R.id.button20 ->{
+                val bonDona = getString(R.string.BonDona)
+                dataPass(bonDona,"Button20")
+            }
+            R.id.button21 ->{
+                val bonDona = getString(R.string.BonDona)
+                dataPass(bonDona,"Button21")
+            }
+            R.id.button22 ->{
+                val bonDona = getString(R.string.BonDona)
+                dataPass(bonDona,"Button22")
+            }
+            R.id.button23 ->{
+                val bonDona = getString(R.string.BonDona)
+                dataPass(bonDona,"Button23")
+            }
+            R.id.button24 ->{
+                val bonDona = getString(R.string.BonDona)
+                dataPass(bonDona,"Button24")
+            }
+            R.id.button25 ->{
+                val bonDona = getString(R.string.BonDona)
+                dataPass(bonDona,"Button25")
+            }
+            R.id.button26 ->{
+                val bonDona = getString(R.string.BonDona)
+                dataPass(bonDona,"Button26")
+            }
+            R.id.button27 ->{
+                val bonDona = getString(R.string.BonDona)
+                dataPass(bonDona,"Button27")
+            }
+            R.id.button28 ->{
+                val bonDona = getString(R.string.BonDona)
+                dataPass(bonDona,"Button28")
             }
         }
     }
